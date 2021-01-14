@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --color-line: blue;
+}
+
 .header {
   display: grid;
   grid-template-columns: 1fr 1fr;
