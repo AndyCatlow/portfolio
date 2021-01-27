@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,300&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #b3b396;
+  --color-secondary: rgb(232, 232, 207);
+  --color-accent: #303028;
+  --color-line: rgba(232, 232, 207, 0.06);
+}
+
+body {
+  font-family: Poppins;
+}
+.header {
+  color: var(--color-accent);
+}
+
+.header__left,
+.header__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3em;
+  min-height: 50vh;
+}
+
+.header__left {
+  grid-area: header__left;
+  background-color: var(--color-primary);
+  position: relative;
+}
+
+.header__right {
+  grid-area: header__right;
+  background-color: var(--color-secondary);
+}
+header h1,
+header h2 {
+  z-index: 4;
+  line-height: 1.8;
+}
+header p {
+  max-width: 40ch;
+}
+#initials {
+  font-size: clamp(1rem, 2vw, 2.5rem);
+  font-weight: 200;
+  position: relative;
+  display: inline-block;
+}
+
+#initials::before,
+#initials::after {
+  content: "";
+  background: var(--color-accent);
+  height: 0.05em;
+  display: block;
+  position: absolute;
+  width: 5em;
+  top: 50%;
+}
+
+#initials::before {
+  right: 150%;
+}
+#initials::after {
+  left: 150%;
+}
+
+#name {
+  font-size: clamp(1.5rem, 3.5vw, 4rem);
+  padding: 0 1em;
+  border: 1px solid var(--color-accent);
+}
+#job-title {
+  font-size: clamp(1rem, 2.5vw, 3rem);
+  font-style: italic;
+}
+
+#logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-height: 98%;
+  max-width: 98%;
+  z-index: 1;
+}
+
+@media (min-width: 600px) {
+  .header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "header__left header__right";
+    min-height: 100vh;
+    color: var(--color-accent);
+  }
+}
