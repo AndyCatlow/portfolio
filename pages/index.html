@@ -10,109 +10,15 @@
     <nav></nav>
     <header class="header">
       <div class="header__left">
-        <svg
-          id="logo"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-          width="500px"
-          height="500px"
-          viewBox="0 0 500 500"
-          preserveAspectRatio="xMinYMin meet"
-        >
-          <line
-            class="T"
-            id="T-top"
-            x1="0"
-            y1="2"
-            x2="500"
-            y2="2"
-            style="stroke: var(--color-line); fill: none; stroke-width: 5px"
-          />
-          <line
-            class="T N W L"
-            id="T-stem"
-            x1="250"
-            y1="0"
-            x2="250"
-            y2="500"
-            style="stroke: var(--color-line); fill: none; stroke-width: 5px"
-          />
-          <line
-            class="A N"
-            id="A-right-leg"
-            x1="250"
-            y1="0"
-            x2="500"
-            y2="500"
-            style="stroke: var(--color-line); fill: none; stroke-width: 5px"
-          />
-          <line
-            class="N W"
-            id="N-right"
-            x1="498"
-            y1="0"
-            x2="498"
-            y2="500"
-            style="stroke: var(--color-line); fill: none; stroke-width: 5px"
-          />
-          <line
-            class="L"
-            id="L-base"
-            x1="250"
-            y1="498"
-            x2="500"
-            y2="498"
-            style="stroke: var(--color-line); fill: none; stroke-width: 5px"
-          />
-          <path
-            class="C"
-            id="C"
-            d="M250,2a248,248,0,0,0,1,496"
-            style="fill: none; stroke: var(--color-line); stroke-width: 5px"
-            id="e8_circleArc"
-          />
-          <line
-            class="A"
-            id="A-left"
-            x1="250"
-            y1="0"
-            x2="51"
-            y2="399"
-            style="stroke: var(--color-line); fill: none; stroke-width: 5px"
-          />
-          <line
-            class="A"
-            id="A-middle"
-            x1="125"
-            y1="250.00"
-            x2="375"
-            y2="250.00"
-            style="stroke: var(--color-line); fill: none; stroke-width: 5px"
-          />
-          <circle
-            class="O"
-            id="O"
-            cx="403"
-            cy="96"
-            style="fill: none; stroke: var(--color-line); stroke-width: 5px"
-            r="92"
-          />
-          <line
-            class="W"
-            id="W-diagonal"
-            x1="250"
-            y1="500"
-            x2="375"
-            y2="250"
-            style="stroke: var(--color-line); fill: none; stroke-width: 5px"
-          />
-        </svg>
-        <h2 id="initials">AC</h2>
-        <h1 id="name">Andy Catlow</h1>
-        <h2 id="job-title">Web Developer</h2>
+        <!-- <img id="logo" src="../images/Catlow_logo_pale.svg" alt="" /> -->
+        <div class="header__left__text">
+          <h2 id="initials">AC</h2>
+          <h1 id="name">Andy Catlow</h1>
+          <h2 id="job-title">Web Developer</h2>
+        </div>
       </div>
       <div class="header__right">
-        <p>
+        <p class="self">
           Hi, I'm a self-taught web developer looking to help you build and
           develop your web presence. If you have a position I could fill, then
           get in touch!
@@ -120,4 +26,102 @@
       </div>
     </header>
   </body>
+
+  <svg xmlns="http://www.w3.org/2000/svg">
+    <symbol
+      id="logo-small"
+      width="500px"
+      height="500px"
+      viewBox="0 0 500 500"
+      preserveAspectRatio="xMinYMin meet"
+    >
+      <line
+        class="T"
+        id="T-top"
+        x1="0"
+        y1="2"
+        x2="500"
+        y2="2"
+        style="stroke: var(--color-accent); fill: none; stroke-width: 5px"
+      />
+      <line
+        class="T N W L"
+        id="T-stem"
+        x1="250"
+        y1="0"
+        x2="250"
+        y2="500"
+        style="stroke: var(--color-accent); fill: none; stroke-width: 5px"
+      />
+      <line
+        class="A N"
+        id="A-right-leg"
+        x1="250"
+        y1="0"
+        x2="500"
+        y2="500"
+        style="stroke: var(--color-accent); fill: none; stroke-width: 5px"
+      />
+      <line
+        class="N W"
+        id="N-right"
+        x1="498"
+        y1="0"
+        x2="498"
+        y2="500"
+        style="stroke: var(--color-accent); fill: none; stroke-width: 5px"
+      />
+      <line
+        class="L"
+        id="L-base"
+        x1="250"
+        y1="498"
+        x2="500"
+        y2="498"
+        style="stroke: var(--color-accent); fill: none; stroke-width: 5px"
+      />
+      <path
+        class="C"
+        id="C"
+        d="M250,2a248,248,0,0,0,1,496"
+        style="fill: none; stroke: var(--color-accent); stroke-width: 5px"
+        id="e8_circleArc"
+      />
+      <line
+        class="A"
+        id="A-left"
+        x1="250"
+        y1="0"
+        x2="51"
+        y2="399"
+        style="stroke: var(--color-accent); fill: none; stroke-width: 5px"
+      />
+      <line
+        class="A"
+        id="A-middle"
+        x1="125"
+        y1="250.00"
+        x2="375"
+        y2="250.00"
+        style="stroke: var(--color-accent); fill: none; stroke-width: 5px"
+      />
+      <circle
+        class="O"
+        id="O"
+        cx="403"
+        cy="96"
+        style="fill: none; stroke: var(--color-accent); stroke-width: 5px"
+        r="92"
+      />
+      <line
+        class="W"
+        id="W-diagonal"
+        x1="250"
+        y1="500"
+        x2="375"
+        y2="250"
+        style="stroke: var(--color-accent); fill: none; stroke-width: 5px"
+      />
+    </symbol>
+  </svg>
 </html>
