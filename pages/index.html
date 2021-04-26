@@ -24,10 +24,55 @@
           get in touch!
         </p>
       </div>
-      <div class="contact__container">
-        <form action="#" class="contact__form"></form>
-      </div>
     </header>
+    <div class="form__container">
+      <form action="#" class="contact__form form">
+        <div class="form__group">
+          <input
+            type="text"
+            id="form__name"
+            name="form__name"
+            class="input__box"
+            required
+          />
+          <label for="form__name" class="form__label">name</label>
+        </div>
+        <div class="form__group">
+          <input
+            type="email"
+            id="form__email"
+            name="form__email"
+            class="input__box"
+            required
+          />
+          <label for="form__email" class="form__label">email</label>
+        </div>
+        <div class="form__group">
+          <input
+            type="tel"
+            id="form__phone"
+            name="form__phone"
+            class="input__box"
+            required
+          />
+          <label for="form__phone" class="form__label">phone</label>
+        </div>
+        <div class="form__group">
+          <textarea
+            name="form__message"
+            id="form__message"
+            cols="30"
+            rows="10"
+            class="input__box"
+            required
+          ></textarea>
+          <label for="form__message" class="form__label">message</label>
+        </div>
+        <div class="form__group">
+          <button type="submit" class="btn">Enquire</button>
+        </div>
+      </form>
+    </div>
   </body>
 
   <svg xmlns="http://www.w3.org/2000/svg">
