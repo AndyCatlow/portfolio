@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 500 500" preserveAspectRatio="xMinYMin meet"  xmlns:drawsvg="http://www.drawsvg.org">
+
+<rect id="svgEditorBackground" x="0" y="0" width="500" height="500" style="fill: none; stroke: none;"/>
+<rect x="0" y="0" style="fill:none;stroke:floralwhite;stroke-width:1px;stroke-opacity:0.3;" id="e1_rectangle" width="500" height="500" />
+<g id="e12_group" style="stroke:floralwhite;stroke-width:0;">
+<polyline style="stroke:floralwhite;fill:none;stroke-width:4px;" id="e4_polyline" points="180.134 81.608 679.732 78.622 680.134 580.612 430.134 580.612 429.933 81.608" />
+<path d="M427.943,81.608a249.179,249.179,0,0,0,2.1910332031250066,499.0039995117187" style="fill:none;stroke:floralwhite;stroke-width:4px;" id="e6_circleArc"/>
+<polyline style="stroke:floralwhite;fill:none;stroke-width:4px;stroke-linejoin:round;" id="e7_polyline" points="228.9 480.689 428.938 81.608 680.134 580.612"/>
+<line id="e9_line" x1="553.831" y1="329.450" x2="303.963" y2="329.953" style="stroke:floralwhite;fill:none;stroke-width:4px;"/>
+<line id="e10_line" x1="430.134033203125" y1="580.6119995117188" x2="552.94" y2="330.115" style="stroke:floralwhite;fill:none;stroke-width:4px;" />
+<circle id="e11_circle" cx="584.191" cy="175.156" style="fill:none;stroke:floralwhite;stroke-width:4px;" r="94.684"/>
+</g>
+</svg>
